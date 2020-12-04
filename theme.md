@@ -305,8 +305,8 @@ project can be a challenge to developers in the .NET ecosystem.
 * NuGet.org, to validate packages on upload and present the status as part of
   overall package/project health.
 
-* Internal partner [Terrapin](http://aka.ms/terrapinintro), which is an effort
-  to secure Azure Ring 0 and Ring 1 services.
+* Internal partner Terrapin, which is an effort to secure Azure Ring 0 and Ring
+  1 services.
 
 ## Developers have access to guidance & tools that supports them in building cross-platform packages
 
