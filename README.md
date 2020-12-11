@@ -2,7 +2,7 @@
 
 This repository is the workplace for a working group to figure out how we can
 grow the .NET ecosystem. The problem statement is described in [this
-document](theme.md).
+document](docs/theme.md).
 
 ## Governance
 
