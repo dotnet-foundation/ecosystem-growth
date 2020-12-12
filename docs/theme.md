@@ -58,7 +58,7 @@ perception where Microsoft "sucks the air" out of the OSS ecosystem because our
 solutions are usually more promoted and often tightly integrated into the
 platform, thus rendering existing solutions less attractive. Several maintainers
 have cited this as a reason that they gave up or avoid building libraries that
-seem foundational. See [this section](#_Feedback:_Critical_opinions) with
+seem foundational. See [this section](#feedback-critical-opinions-on-the-microsoft-oss-ecosystem) with
 pointers to blog posts.
 
 To avoid this, we need to start engaging with owners of existing libraries and
