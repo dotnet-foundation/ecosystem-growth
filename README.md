@@ -1,8 +1,7 @@
 # Growing the .NET ecosystem
 
-This repository is the workplace for a working group to figure out how we can
-grow the .NET ecosystem. The problem statement is described in [this
-document](docs/theme.md).
+This repository is the collaboration space for a working group to figure out how
+we can grow the .NET ecosystem.
 
 ## Governance
 
