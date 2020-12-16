@@ -17,12 +17,17 @@ of the working group. If you have any questions, please open a discussion.
 
 ## Members
 
+* [Aaron Stannard](https://github.com/aaronontheweb)
+* [Ben Adams](https://github.com/benaadams)
 * [Claire Novotny](https://github.com/clairernovotny)
 * [Eriawan Kusumawardhono](https://github.com/eriawan)
 * [Eric Erhardt](https://github.com/eerhardt)
 * [Immo Landwerth](https://github.com/terrajobst)
+* [James Jackson-South](https://github.com/jimbobsquarepants)
 * [Jeremy Sinclair](https://github.com/snickler)
 * [John Callaway](https://github.com/ovation22)
 * [Ken Cutt](https://github.com/kencutt)
+* [Nick Craver](https://github.com/nickcraver)
+* [Sébastien Ros](https://github.com/sebastienros)
 * [Shaun Walker](https://github.com/sbwalker)
 * [Tanner Gooding](https://github.com/tannergooding)
