@@ -1,36 +1,42 @@
 # .NET Library and Open Source Survey
 
-## When you're building class libraries, you're mostly doing this because
+## What is the primary reason why you're building class libraries?
 
-- ( ) You need to break down your own application logic
-- ( ) You need re-usable components that are used by other people's apps
-- ( ) You rarely build libraries
+- ( ) I break down my application logic
+- ( ) I build re-usable components that are used by other people's apps
+- ( ) I build them for fun
+- ( ) I rarely build libraries
 
-## When you're building libraries, you're mostly building for
+## How often do you target multiple frameworks for a single library?
 
-- ( ) a single target framework
-- ( ) multiple target frameworks
+- ( ) Very often
+- ( ) Often
+- ( ) Sometimes
+- ( ) Rarely
+- ( ) Very rarely
 
-## When you're consuming libraries, do you often see issues because different parts of your dependencies only work with specific versions of the library?
+## How often do you experience issues because different parts of your dependencies only work with specific versions of a library?
 
-- ( ) Strongly agree
-- ( ) Somewhat agree
-- ( ) Neither agree nor disagree
-- ( ) Somewhat disagree
-- ( ) Strongly disagree
+- ( ) Very often
+- ( ) Often
+- ( ) Sometimes
+- ( ) Rarely
+- ( ) Very rarely
 
-## Do you own NuGet packages that are available on nuget.org?
+## Do you own NuGet packages on a public registry like nuget.org?
 
 - ( ) Yes
 - ( ) No
 
-## What describes your open source activity best?
+## What describes your open source activity best (check all that applies)?
 
-- ( ) I'm mostly maintaining open source projects
-- ( ) I'm maintaining but also frequently contributing to other open source projects
-- ( ) I'm frequently contributing to open source projects
-- ( ) I'm mostly consuming open source projects
-- ( ) I don't use open source projects
+**Filter: This will show the "As an XXX question blocks"**
+
+- [ ] I'm maintaining open source projects
+- [ ] I'm contributing code to open source projects
+- [ ] I'm contributing docs/samples to open source projects
+- [ ] I'm contributing by helping people use open source projects (StackOverflow, GitHub Discussions etc)
+- [ ] I'm consuming open source projects
 
 ## The .NET open source ecosystem offers great choices across all kinds of .NET applications
 
@@ -40,7 +46,9 @@
 - ( ) Somewhat disagree
 - ( ) Strongly disagree
 
-## The .NET open source ecosystem is a level playing field for all participants
+## As an open source maintainer, I'm not afraid that some big company will create a competing offering to my project
+
+**Filter: Next question is only visible if the answer is 4-5**
 
 - ( ) Strongly agree
 - ( ) Somewhat agree
@@ -48,89 +56,191 @@
 - ( ) Somewhat disagree
 - ( ) Strongly disagree
 
-## Overall, I enjoy being an open source maintainer
+## If you were concerned that a big company is creating a competing offering, would you like to tell us who that is?
 
-- ( ) Strongly agree
-- ( ) Somewhat agree
-- ( ) Neither agree nor disagree
-- ( ) Somewhat disagree
-- ( ) Strongly disagree
+* Yes: [-----------]
+* Prefer not to say
 
-## Overall, I enjoy being an open source contributor
+## What is your experience of being an open source maintainer?
 
-- ( ) Strongly agree
-- ( ) Somewhat agree
-- ( ) Neither agree nor disagree
-- ( ) Somewhat disagree
-- ( ) Strongly disagree
+**Filter: Next question is only visible if the answer is 4-5**
+
+- ( ) I enjoy it a lot
+- ( ) I mostly enjoy it
+- ( ) I feel neutral about it
+- ( ) I mostly don't enjoy it
+- ( ) I don't enjoy it all
+
+## What is the reason you don't enjoy being a open source maintainer?
+
+* [-----------]
+
+## What is your experience of being an open source contributor?
+
+**Filter: Next question is only visible if the answer is 4-5**
+
+- ( ) I enjoy it a lot
+- ( ) I mostly enjoy it
+- ( ) I feel neutral about it
+- ( ) I mostly don't enjoy it
+- ( ) I don't enjoy it all
+
+## What is the reason you don't enjoy being an open source contributor?
+
+* [-----------]
+
+## What is your experience of being an open source consumer?
+
+**Filter: Next question is only visible if the answer is 4-5**
+
+- ( ) I enjoy it a lot
+- ( ) I mostly enjoy it
+- ( ) I feel neutral about it
+- ( ) I mostly don't enjoy it
+- ( ) I don't enjoy it all
+
+## What is the reason you don't enjoy being an open source consumer?
+
+* [-----------]
 
 ## As an open source maintainer...
 
-### ...I am doing my work
+### ...where do you do most of your work?
 
 - ( ) Mostly in my spare time
 - ( ) A combination of spare time and work time
-- ( ) Mostly as part of my job (employee)
-- ( ) Mostly as part of my job (self-employed)
+- ( ) Mostly during my work time
 
-### ...I feel I can sustain the project for a long time
+### ...how difficult is it for you to maintain your project over a long time?
 
-- ( ) Strongly agree
-- ( ) Somewhat agree
-- ( ) Neither agree nor disagree
-- ( ) Somewhat disagree
-- ( ) Strongly disagree
+- ( ) Very difficult
+- ( ) Somewhat difficult
+- ( ) Neither difficult nor easy
+- ( ) Somewhat easy
+- ( ) Very easy
 
-### ...I feel I get sufficient help from the community
+### ...how difficult is it for you to get help from the community?
 
-- ( ) Strongly agree
-- ( ) Somewhat agree
-- ( ) Neither agree nor disagree
-- ( ) Somewhat disagree
-- ( ) Strongly disagree
+- ( ) Very difficult
+- ( ) Somewhat difficult
+- ( ) Neither difficult nor easy
+- ( ) Somewhat easy
+- ( ) Very easy
+
+### ...how much would money help the maintenance of your project?
+
+- ( ) It would help a lot
+- ( ) It would help somewhat
+- ( ) I'm not sure
+- ( ) It wouldn't help much
+- ( ) It wouldn't help at all
+
+#### How would money help you maintain your project?
+
+**Filter: Next question is only visible if the answer is 6**
+
+- ( ) Pay for hosting cost (website, DNS, certificates, etc)
+- ( ) Pay for cloud consumption (Azure resources to test, etc.)
+- ( ) Pay for tools (GitHub Pro, Jetbrains R#, etc.)
+- ( ) Get time off to the dedicated time to maintain
+- ( ) Enjoy some non-work activities
+- ( ) Other (explain below)
+
+#### What scenario would money help your project?
+
+* [-----------]
+
+### ...how easy to you feel it is to choose a license that helps you realize your open source goals?
+
+- ( ) Very difficult
+- ( ) Somewhat difficult
+- ( ) Neither difficult nor easy
+- ( ) Somewhat easy
+- ( ) Very easy
+
+### ...how happy are you with the official documentation on building and maintaining open source projects?
+
+**Filter: Next question is only visible if the answer is 4-5**
+
+- ( ) Very happy
+- ( ) Somewhat happy
+- ( ) Neither happy nor unhappy
+- ( ) Somewhat unhappy
+- ( ) Very unhappy
+
+## What is the reason you aren't happy with the guidance?
+
+* [-----------]
 
 ## As an open source contributor...
 
-### ...I am doing my work:
+### ...when do you do most of your work?
 
 - ( ) Mostly in my spare time
 - ( ) A combination of spare time and work time
-- ( ) Mostly as part of my job (employee)
-- ( ) Mostly as part of my job (self-employed)
+- ( ) Mostly during my work time
 
-### ...I feel contributing to projects is usually quite easy
+### ...how difficult do you find contributing to projects?
 
-- ( ) Strongly agree
-- ( ) Somewhat agree
-- ( ) Neither agree nor disagree
-- ( ) Somewhat disagree
-- ( ) Strongly disagree
+- ( ) Very difficult
+- ( ) Somewhat difficult
+- ( ) Neither difficult nor easy
+- ( ) Somewhat easy
+- ( ) Very easy
 
-### ...I generally feel maintainers value my contributions
+### ...how valued do you feel your contributions are by the maintainers?
 
-- ( ) Strongly agree
-- ( ) Somewhat agree
-- ( ) Neither agree nor disagree
-- ( ) Somewhat disagree
-- ( ) Strongly disagree
+- ( ) Very valued
+- ( ) Somewhat valued
+- ( ) Neither valued nor unvalued
+- ( ) Somewhat unvalued
+- ( ) Very unvalued
 
 ## As an open source consumer...
 
-### ...I'm generally not concerned adding dependencies on libraries not provided by myself
+### ...how confident are you with taking a dependency on a new open source project?
 
-- ( ) Strongly agree
-- ( ) Somewhat agree
-- ( ) Neither agree nor disagree
-- ( ) Somewhat disagree
-- ( ) Strongly disagree
+- ( ) Very confident
+- ( ) Somewhat confident
+- ( ) Neither confident nor concerned
+- ( ) Somewhat concerned
+- ( ) Very concerned
 
-### ...I trust Microsoft provided libraries
+### ...in comparison to libraries from individuals, I trust libraries provided by a well-known company
 
 - ( ) more
 - ( ) neither more nor less
 - ( ) less
 
-### ...I'm generally happy with the project's provided functionality and quality
+### ...does your level of trust increase when a project offers paid support?
+
+- ( ) I trust it more
+- ( ) I trust it neither more nor less
+- ( ) I trust it less
+
+### ...in comparison to a paid product, do you trust open source more or less?
+
+- ( ) I trust it more
+- ( ) I trust it neither more nor less
+- ( ) I trust it less
+
+### ...when a project is free, how likely are you sponsor its development by donating money?
+
+- ( ) Very likely
+- ( ) Somewhat likely
+- ( ) Neither likely nor unlikely
+- ( ) Somewhat unlikely
+- ( ) Very unlikely
+
+### ...when a project is free, how likely are you sponsor its development by contributing?
+
+- ( ) Very likely
+- ( ) Somewhat likely
+- ( ) Neither likely nor unlikely
+- ( ) Somewhat unlikely
+- ( ) Very unlikely
+
+### ...I'm generally happy with the project's provided features and their quality
 
 - ( ) Strongly agree
 - ( ) Somewhat agree
@@ -138,30 +248,59 @@
 - ( ) Somewhat disagree
 - ( ) Strongly disagree
 
-### ...I'm generally confident that the project is long lasting
+### ...how confident are that the project is long lasting
 
-- ( ) Strongly agree
-- ( ) Somewhat agree
-- ( ) Neither agree nor disagree
-- ( ) Somewhat disagree
-- ( ) Strongly disagree
+- ( ) Very confident
+- ( ) Somewhat confident
+- ( ) Neither confident nor concerned
+- ( ) Somewhat concerned
+- ( ) Very concerned
 
-### ...I'm generally happy with the level of support the project provides
+### ...how happy are you with the level of support the project provides
 
-- ( ) Strongly agree
-- ( ) Somewhat agree
-- ( ) Neither agree nor disagree
-- ( ) Somewhat disagree
-- ( ) Strongly disagree
+- ( ) Very happy
+- ( ) Somewhat unhappy
+- ( ) Neither happy nor unhappy
+- ( ) Somewhat unhappy
+- ( ) Very unhappy
 
-### ...I sometimes need to build my own version with additional features or bug fixes
+### ...how oftent do you feel the need for building your own version with additional features or bug fixes?
 
-- ( ) Strongly agree
-- ( ) Somewhat agree
-- ( ) Neither agree nor disagree
-- ( ) Somewhat disagree
-- ( ) Strongly disagree
+- ( ) Very often
+- ( ) Somewhat often
+- ( ) Somtimes
+- ( ) Somewhat rare
+- ( ) Very rare
+
+## What is your gender?
+
+***(whatever our standard format is)***
+
+## What is your income scale?
+
+***(whatever our standard format is)***
+
+## How many people are employed at your company?
+
+***(whatever our standard format is)***
+
+## How many people are in your dev team?
+
+***(whatever our standard format is)***
+
+## In what region do you reside?
+
+***(whatever our standard format is)***
+
+## How many years have you ben writing .NET code?
+
+***(whatever our standard format is)***
+
+## Which of the following describes yo best?
+
+***(whatever our standard format is)***
 
 ## If you're interested to participate in a user study about open source and library development, please provide your email:
 
-- Email
+- First Name: [-------]
+- Email: [-------]
