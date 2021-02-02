@@ -23,7 +23,7 @@
 - ( ) Rarely
 - ( ) Very rarely
 
-## Do you own NuGet packages on nuget.org?
+## Do you own NuGet packages on a public registry like nuget.org?
 
 - ( ) Yes
 - ( ) No
@@ -32,8 +32,10 @@
 
 **Filter: This will show the "As an XXX question blocks"**
 
-- [ ] I'm maintaing open source projects
-- [ ] I'm contributing to open source projects
+- [ ] I'm maintaining open source projects
+- [ ] I'm contributing code to open source projects
+- [ ] I'm contributing docs/samples to open source projects
+- [ ] I'm contributing by helping people use open source projects (StackOverflow, GitHub Discussions etc)
 - [ ] I'm consuming open source projects
 
 ## The .NET open source ecosystem offers great choices across all kinds of .NET applications
@@ -125,13 +127,28 @@
 - ( ) Somewhat easy
 - ( ) Very easy
 
-### ...how much would money help the maintainance of your project?
+### ...how much would money help the maintenance of your project?
 
 - ( ) It would help a lot
 - ( ) It would help somewhat
 - ( ) I'm not sure
 - ( ) It wouldn't help much
 - ( ) It wouldn't help at all
+
+#### How would money help you maintain your project?
+
+**Filter: Next question is only visible if the answer is 6**
+
+- ( ) Pay for hosting cost (website, DNS, certificates, etc)
+- ( ) Pay for cloud consumption (Azure resources to test, etc.)
+- ( ) Pay for tools (GitHub Pro, Jetbrains R#, etc.)
+- ( ) Get time off to the dedicated time to maintain
+- ( ) Enjoy some non-work activities
+- ( ) Other (explain below)
+
+#### What scenario would money help your project?
+
+* [-----------]
 
 ### ...how easy to you feel it is to choose a license that helps you realize your open source goals?
 
@@ -157,7 +174,7 @@
 
 ## As an open source contributor...
 
-### ...where do you do most of your work?
+### ...when do you do most of your work?
 
 - ( ) Mostly in my spare time
 - ( ) A combination of spare time and work time
